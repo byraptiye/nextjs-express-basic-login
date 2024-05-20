@@ -1,0 +1,19 @@
+{
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "rootDir": "src",
+    "baseUrl": "src"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
